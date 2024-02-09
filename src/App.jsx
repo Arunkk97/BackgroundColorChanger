@@ -26,8 +26,8 @@ function App() {
           <button onClick={() => changeColor("green")} type="button" class="btn btn-outline-success s">Success</button>
           <button onClick={() => changeColor("red")} type="button" class="btn btn-outline-danger s">Danger</button>
           <button onClick={() => changeColor("yellow")} type="button" class="btn btn-outline-warning s">Warning</button>
-          <button onClick={() => changeColor("indigo")} type="button" class="btn btn-outline-info s">Info</button>
-          <button onClick={() => changeColor("orange")} type="button" class="btn btn-outline-warning s">orange</button>
+          {/* <button onClick={() => changeColor("indigo")} type="button" class="btn btn-outline-info s">Info</button> */}
+          {/* <button onClick={() => changeColor("orange")} type="button" class="btn btn-outline-warning s">orange</button> */}
         </div>
 
       </div>
