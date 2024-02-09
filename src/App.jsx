@@ -20,17 +20,21 @@ function App() {
 
         <div>
           <h1 className='text-center mb-5 text-light'>Background Color Changer</h1>
-  
-          <button onClick={() => changeColor('blue')} type="button" class="btn btn-outline-primary s">Primary</button>
-          <button onClick={() => changeColor("gray")} type="button" class="btn btn-outline-secondary s">Secondary</button>
-          <button onClick={() => changeColor("green")} type="button" class="btn btn-outline-success s">Success</button>
-          <button onClick={() => changeColor("red")} type="button" class="btn btn-outline-danger s">Danger</button>
-          <button onClick={() => changeColor("yellow")} type="button" class="btn btn-outline-warning s">Warning</button>
-          {/* <button onClick={() => changeColor("indigo")} type="button" class="btn btn-outline-info s">Info</button> */}
-          {/* <button onClick={() => changeColor("orange")} type="button" class="btn btn-outline-warning s">orange</button> */}
+
+
+
+          <button onClick={() => changeColor('blue')} type="button" class="btn btn-primary s">Primary</button>
+          <button onClick={() => changeColor('grey')} type="button" class="btn btn-secondary s">Secondary</button>
+          <button onClick={() => changeColor('green')} type="button" class="btn btn-success s">Success</button>
+          <button onClick={() => changeColor('red')} type="button" class="btn btn-danger s">Danger</button>
+          <button onClick={() => changeColor('yellow')} type="button" class="btn btn-warning s">Warning</button>
+          <button onClick={() => changeColor('indigo')} type="button" class="btn btn-info s">Info</button>
+
         </div>
 
+
       </div>
+
 
 
     </>
